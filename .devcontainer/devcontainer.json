@@ -29,7 +29,8 @@
 				"quicktype.quicktype",
 				"aaron-bond.better-comments",
 				"GitHub.copilot",
-				"WakaTime.vscode-wakatime"
+				"WakaTime.vscode-wakatime",
+				"Vue.volar"
 			]
 		}
 	},
