@@ -1,26 +1,15 @@
-<!-- This will display links to posts in the posts directories -->
+<!-- We will have links to pages, they will be added manually -->
 
-<script setup lang="ts">
-import { useRouter } from 'vue-router'
-import type { Post } from '~/types'
-
-const props = defineProps<{
-  posts: Post[]
-}>()
-
-const router = useRouter()
-
-const goToPost = (id: number) => {
-  router.push(`/post/${id}`)
-}
-</script>
-
-<template v-for="post in posts" :key="route.path">
+<template>
   <div>
-    <h1>Posts</h1>
+    <h1 class="text-3xl font-bold mb-4">
+      Post
+    </h1>
     <ul>
-      <li v-for="post in posts" :key="post.id">
-        <a @click="goToPost(post.id)">{{ post.title }}</a>
+      <li class="mb-4">
+        <RouterLink to="/posts/first-post">
+          First Post
+        </RouterLink>
       </li>
     </ul>
   </div>

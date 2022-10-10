@@ -1,7 +1,7 @@
 ---
 title: first post
-id: 1
-
+slug: first-post
+desc: "Stuff"
 ---
 
 hi
