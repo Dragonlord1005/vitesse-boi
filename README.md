@@ -166,7 +166,7 @@ When you use this template, try follow the checklist to update your info properl
 - [x] Change the title in `App.vue`
 - [ ] Change the hostname in `vite.config.ts`
 - [ ] Change the favicon in `public`
-- [ ] Remove the `.github` folder which contains the funding info
+- [x] Remove the `.github` folder which contains the funding info
 - [ ] Clean up the READMEs and remove routes
 
 And, enjoy :)

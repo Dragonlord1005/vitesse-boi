@@ -51,6 +51,13 @@ const { t } = useI18n()
       >
         {{ t('button.go') }}
       </button>
+
+      <div>
+        <!-- Posts link -->
+        <RouterLink to="/posts" class="text-sm">
+          Posts
+        </RouterLink>
+      </div>
     </div>
   </div>
 </template>
