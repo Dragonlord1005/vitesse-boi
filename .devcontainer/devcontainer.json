@@ -30,7 +30,15 @@
 				"aaron-bond.better-comments",
 				"GitHub.copilot",
 				"WakaTime.vscode-wakatime",
-				"Vue.volar"
+				"Vue.volar",
+				"antfu.iconify",
+				"antfu.unocss",
+				"antfu.vite",
+				"antfu.goto-alias",
+				"csstools.postcss",
+				"dbaeumer.vscode-eslint",
+				"lokalise.i18n-ally",
+				"streetsidesoftware.code-spell-checker"
 			]
 		}
 	},
