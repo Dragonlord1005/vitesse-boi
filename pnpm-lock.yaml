@@ -6,7 +6,7 @@ specifiers:
   '@intlify/vite-plugin-vue-i18n': 6.0.3
   '@types/markdown-it-link-attributes': 3.0.1
   '@types/nprogress': 0.2.0
-  '@unocss/reset': 0.45.28
+  '@unocss/reset': 0.45.29
   '@vitejs/plugin-vue': 3.1.2
   '@vue/test-utils': 2.1.0
   '@vueuse/core': 9.3.0
@@ -45,7 +45,7 @@ specifiers:
   vue-tsc: 1.0.3
 
 dependencies:
-  '@unocss/reset': 0.45.28
+  '@unocss/reset': 0.45.29
   '@vueuse/core': 9.3.0_vue@3.2.40
   '@vueuse/head': 0.9.7_vue@3.2.40
   nprogress: 0.2.0
@@ -81,7 +81,7 @@ devDependencies:
   vite: 3.1.6
   vite-plugin-inspect: 0.7.5_vite@3.1.6
   vite-plugin-pages: 0.26.0_vite@3.1.6
-  vite-plugin-pwa: 0.13.1_g7dk7iupfxhbbca5x5y2evvpji
+  vite-plugin-pwa: 0.13.1_vite@3.1.6
   vite-plugin-vue-component-preview: 0.3.3_vite@3.1.6
   vite-plugin-vue-layouts: 0.7.0_wdzqfuczf2bgcsxzjzdgwad3zu
   vite-plugin-vue-markdown: 0.22.1_vite@3.1.6
@@ -2145,6 +2145,11 @@ packages:
 
   /@unocss/reset/0.45.28:
     resolution: {integrity: sha512-OX45rv77YSUuj8g7lKTiDUN6cYSBNUxV9uzuFxKE5SctBYPEG1Aj2sZ8X/jk7v+421+LFY2Jidjs+XrhnLwFAA==}
+    dev: true
+
+  /@unocss/reset/0.45.29:
+    resolution: {integrity: sha512-ytnKxyJdjvhjHrZ9yQUnQwiuL4hiXvjZUj88F2JkwgFJX6Y8jEz3V2xU1BPZNOv20/F6P1ngzEPRfrWHG8XG6A==}
+    dev: false
 
   /@unocss/scope/0.45.28:
     resolution: {integrity: sha512-PnY2SGmX/PQ4UCMop4Vc62VEVz3H2kf7IdcjAWPmoXCkYFrcLDkFhJcq+V+5L5+ZO56zmj0xPYZ9TO2sLbFv+w==}
@@ -7927,12 +7932,10 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-pwa/0.13.1_g7dk7iupfxhbbca5x5y2evvpji:
+  /vite-plugin-pwa/0.13.1_vite@3.1.6:
     resolution: {integrity: sha512-NR3dIa+o2hzlzo4lF4Gu0cYvoMjSw2DdRc6Epw1yjmCqWaGuN86WK9JqZie4arNlE1ZuWT3CLiMdiX5wcmmUmg==}
     peerDependencies:
       vite: ^3.1.0
-      workbox-build: ^6.5.4
-      workbox-window: ^6.5.4
     dependencies:
       debug: 4.3.4
       fast-glob: 3.2.12
@@ -7942,6 +7945,7 @@ packages:
       workbox-build: 6.5.4
       workbox-window: 6.5.4
     transitivePeerDependencies:
+      - '@types/babel__core'
       - supports-color
     dev: true
 
