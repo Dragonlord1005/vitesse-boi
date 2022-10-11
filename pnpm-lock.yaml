@@ -13,7 +13,7 @@ specifiers:
   '@vueuse/head': 0.9.8
   critters: 0.0.16
   cross-env: 7.0.3
-  cypress: 10.9.0
+  cypress: 10.10.0
   eslint: 8.25.0
   eslint-plugin-cypress: 2.12.1
   https-localhost: 4.7.1
@@ -65,7 +65,7 @@ devDependencies:
   '@vue/test-utils': 2.1.0_vue@3.2.40
   critters: 0.0.16
   cross-env: 7.0.3
-  cypress: 10.9.0
+  cypress: 10.10.0
   eslint: 8.25.0
   eslint-plugin-cypress: 2.12.1_eslint@8.25.0
   https-localhost: 4.7.1
@@ -3203,8 +3203,8 @@ packages:
   /csstype/2.6.20:
     resolution: {integrity: sha512-/WwNkdXfckNgw6S5R125rrW8ez139lBHWouiBvX8dfMFtcn6V81REDqnH7+CRpRipfYlyU1CmOnOxrmGcFOjeA==}
 
-  /cypress/10.9.0:
-    resolution: {integrity: sha512-MjIWrRpc+bQM9U4kSSdATZWZ2hUqHGFEQTF7dfeZRa4MnalMtc88FIE49USWP2ZVtfy5WPBcgfBX+YorFqGElA==}
+  /cypress/10.10.0:
+    resolution: {integrity: sha512-bU8r44x1NIYAUNNXt3CwJpLOVth7HUv2hUhYCxZmgZ1IugowDvuHNpevnoZRQx1KKOEisLvIJW+Xen5Pjn41pg==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     requiresBuild: true
