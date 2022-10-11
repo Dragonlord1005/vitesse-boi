@@ -54,9 +54,13 @@ const { t } = useI18n()
 
       <div>
         <!-- Posts link -->
-        <RouterLink to="/posts" class="text-sm">
-          Posts
-        </RouterLink>
+        <button
+          btn m-3 text-sm
+        >
+          <RouterLink to="/posts" class="text-sm">
+            Posts
+          </RouterLink>
+        </button>
       </div>
     </div>
   </div>
