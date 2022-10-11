@@ -11,6 +11,7 @@
     "pnpm",
     "shiki",
     "taze",
+    "typecheck",
     "unocss",
     "unplugin",
     "Vite",
