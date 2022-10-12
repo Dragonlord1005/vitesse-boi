@@ -17,7 +17,7 @@ const { t } = useI18n()
     </div>
     <p>
       <a rel="noreferrer" href="https://github.com/antfu/vitesse" target="_blank">
-        Vitesse
+        Vitesse Boi
       </a>
     </p>
     <p>
@@ -26,7 +26,7 @@ const { t } = useI18n()
 
     <div py-4 />
 
-    <input
+    <!-- <input
       id="input"
       v-model="name"
       :placeholder="t('intro.whats-your-name')"
@@ -41,16 +41,16 @@ const { t } = useI18n()
       outline="none active:none"
       @keydown.enter="go"
     >
-    <label class="hidden" for="input">{{ t('intro.whats-your-name') }}</label>
+    <label class="hidden" for="input">{{ t('intro.whats-your-name') }}</label> -->
 
     <div>
-      <button
+      <!-- <button
         btn m-3 text-sm
         :disabled="!name"
         @click="go"
       >
         {{ t('button.go') }}
-      </button>
+      </button> -->
 
       <div>
         <!-- Posts link -->
