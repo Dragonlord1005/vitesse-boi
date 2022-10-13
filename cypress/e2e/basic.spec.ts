@@ -10,7 +10,6 @@ context('Basic', () => {
     cy.contains('[Home Layout]')
       .should('exist')
 
-
     cy.get('[btn]')
       .click()
       .url()
