@@ -2,7 +2,7 @@
 
 <template>
   <div>
-    <form netlfiy netlify-honeypot="bot-field" hidden>
+    <form netlify netlify-honeypot="bot-field" method="post">
       <label>Name: </label><input type="text" name="name">
       <br>
       <label>Email: </label><input type="email" name="email">
