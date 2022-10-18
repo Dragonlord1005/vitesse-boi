@@ -29,5 +29,9 @@ const toggleLocales = () => {
     <a class="icon-btn mx-2" rel="noreferrer" href="https://github.com/Dragonlord1005/vitesse-boi" target="_blank" title="GitHub">
       <div i-carbon-logo-github />
     </a>
+    <!-- Create a link to signup -->
+    <RouterLink class="icon-btn mx-2" to="/signup" :title="t('button.signup')">
+      <div i-carbon-user />
+    </RouterLink>
   </nav>
 </template>

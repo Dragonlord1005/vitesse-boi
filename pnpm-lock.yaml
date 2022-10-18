@@ -19,6 +19,7 @@ specifiers:
   https-localhost: 4.7.1
   markdown-it-link-attributes: 4.0.1
   markdown-it-shiki: 0.5.1
+  netlify-identity-widget: ^1.9.2
   nprogress: 0.2.0
   pinia: 2.0.23
   pnpm: 7.13.5
@@ -48,6 +49,7 @@ dependencies:
   '@unocss/reset': 0.45.30
   '@vueuse/core': 9.3.1_vue@3.2.41
   '@vueuse/head': 0.9.8_vue@3.2.41
+  netlify-identity-widget: 1.9.2
   nprogress: 0.2.0
   pinia: 2.0.23_l7r24p6nevbtlimqmqcwa3ouhu
   vue: 3.2.41
@@ -6087,6 +6089,10 @@ packages:
     engines: {node: '>= 0.6'}
     dev: true
 
+  /netlify-identity-widget/1.9.2:
+    resolution: {integrity: sha512-IbS1JHhs7BflCCvp3C9f6tmNSZqbyBhZ4Gs5+Qxt4IlPybTOVv0PqJ4TAsA7uxh1R+oXOAmk0OOMAkEaPYeCtA==}
+    dev: false
+
   /no-case/2.3.2:
     resolution: {integrity: sha512-rmTZ9kz+f3rCvK2TD1Ue/oZlns7OGoIWP4fc3llxxRXlOkHKoWPPWJOfFYpITabSow43QJbRIoHQXtt10VldyQ==}
     dependencies:
@@ -7781,7 +7787,7 @@ packages:
       escape-string-regexp: 5.0.0
       fast-glob: 3.2.12
       local-pkg: 0.4.2
-      magic-string: 0.26.6
+      magic-string: 0.26.7
       mlly: 0.5.7
       pathe: 0.3.9
       scule: 0.3.2
